@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="326.0" prefWidth="509.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cis232.helloworld.HelloWorldController">
+   <children>
+      <Button fx:id="button" layoutX="222.0" layoutY="151.0" mnemonicParsing="false" onAction="#buttonClickListener" text="Click me!" />
+      <Label fx:id="label" alignment="CENTER" layoutX="-3.0" layoutY="29.0" prefHeight="103.0" prefWidth="515.0" text="Hello World!" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="70.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
