@@ -16,6 +16,7 @@ public class MainApplication extends Application {
 		//Set up a scene using the FXML file
 		Scene scene = new Scene(parent);
 		
+        //Stage Setup
 		//Set up our stage using the scene
 		stage.setScene(scene);
 		stage.show();
